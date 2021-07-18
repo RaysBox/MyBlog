@@ -1,0 +1,44 @@
+.thetitle {
+	text-align: center;
+	font-size: xx-large;
+}
+.table {
+	margin: 0px auto;	/* 區塊置中 */
+	text-align: center;
+	background-color: #DDDDDD;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: solid;
+	border-radius: 5%
+}
+.result {
+	background-color: #FAFAFA;
+	border: solid;
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	display: none;
+}
+.button {
+	font-size: x-large;
+}
+.result_text {
+	font-size: x-large;
+	font-style: bold;
+}
+.result_subtext {
+	font-style: bold;
+}
+.input {
+	font-size: x-large;
+	text-align: left;
+}
+.note {
+	text-align: left;
+}
