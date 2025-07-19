@@ -39,11 +39,11 @@
 	text-align: left;
 }
 
-.input div select:hover {
+#choice_id select:hover {
   background-color: #d9d9d9;
 }
 
-.input div select:focus {
+#choice_id select:focus {
   outline: none;
   border-color: #666;
   background-color: #ccc;
