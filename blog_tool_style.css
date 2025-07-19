@@ -39,11 +39,11 @@
 	text-align: left;
 }
 
-#choice_id select:hover {
+select:hover {
   background-color: #d9d9d9;
 }
 
-#choice_id select:focus {
+select:focus {
   outline: none;
   border-color: #666;
   background-color: #ccc;
