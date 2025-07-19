@@ -39,6 +39,11 @@
 	text-align: left;
 }
 
+.input {
+    font-size: x-large;
+    text-align: left;
+}
+
 select:hover {
   background-color: #d9d9d9;
 }
