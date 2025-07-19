@@ -25,7 +25,7 @@
 	padding-bottom: 5px;
 	display: none;
 }
-.button, .button:active, .button:hover {
+/*.button, .button:active, .button:hover {
     display: inline-block;
     border: 1px solid #AAAAAA;
     border-radius: 0px;
@@ -48,18 +48,82 @@
 .button {
     background-color: #EEEEEE;
     transform: scale(0.9);
-}
+}*/
+
 .result_text {
 	font-size: x-large;
 	font-style: bold;
 }
+
 .result_subtext {
 	font-style: bold;
 }
-.input {
+/*.input {
 	font-size: x-large;
 	text-align: left;
-}
+}*/
 .note {
 	text-align: left;
+}
+
+select:hover {
+  background-color: #d9d9d9;
+}
+
+select:focus {
+  outline: none;
+  border-color: #666;
+  background-color: #ccc;
+  box-shadow: 0 0 5px #999;
+}
+
+input[type="text"], input[type="number"], input[type="password"], textarea {
+  font-family: 'Comic Sans MS', cursive, sans-serif; /* 改用比較普及又帶點趣味的字體 */
+  font-size: 1.2em;
+  padding: 8px 12px;
+  border: 3px solid #666; /* 改成實線 */
+  border-radius: 12px;
+  background-color: #e6e6e6;
+  color: #333;
+  box-shadow: 3px 3px 0 #bbb;
+  transition: box-shadow 0.3s ease, background-color 0.3s ease;
+  outline: none;
+  filter: drop-shadow(2px 2px 1px rgba(170, 170, 170, 0.4));
+}
+
+input[type="text"]:focus, input[type="number"]:focus, input[type="password"]:focus, textarea:focus {
+  background-color: #d9d9d9;
+  box-shadow: 4px 4px 0 #999;
+  filter: drop-shadow(3px 3px 2px rgba(120, 120, 120, 0.5));
+  border-color: #444;
+}
+
+.button {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  font-size: 1.2em;
+  padding: 8px 16px;
+  border: 3px solid #666;
+  border-radius: 12px;
+  background-color: #e6e6e6;
+  color: #333;
+  cursor: pointer;
+  user-select: none;
+  box-shadow: 3px 3px 0 #bbb;
+  transition: background-color 0.3s ease, box-shadow 0.2s ease, transform 0.1s ease;
+  filter: drop-shadow(2px 2px 1px rgba(170, 170, 170, 0.4));
+}
+
+.button:hover {
+  background-color: #d9d9d9;
+  box-shadow: 4px 4px 0 #999;
+  filter: drop-shadow(3px 3px 2px rgba(120, 120, 120, 0.5));
+  border-color: #444;
+  transform: scale(1.05);
+}
+
+.button:active {
+  background-color: #c0c0c0;
+  box-shadow: 2px 2px 0 #777;
+  filter: drop-shadow(1px 1px 1px rgba(100, 100, 100, 0.6));
+  transform: scale(0.95);
 }
