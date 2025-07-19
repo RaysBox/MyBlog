@@ -34,19 +34,16 @@
 .result_subtext {
 	font-style: bold;
 }
-/*.input {
-	font-size: x-large;
-	text-align: left;
-}*/
+
 .note {
 	text-align: left;
 }
 
-select:hover {
+.input select:hover {
   background-color: #d9d9d9;
 }
 
-select:focus {
+.input select:focus {
   outline: none;
   border-color: #666;
   background-color: #ccc;
