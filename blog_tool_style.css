@@ -39,18 +39,18 @@
 	text-align: left;
 }
 
-select:hover {
+.input select:hover {
   background-color: #d9d9d9;
 }
 
-select:focus {
+.input select:focus {
   outline: none;
   border-color: #666;
   background-color: #ccc;
   box-shadow: 0 0 5px #999;
 }
 
-.input, textarea {
+.input input, textarea {
   font-family: 'Comic Sans MS', cursive, sans-serif; /* 改用比較普及又帶點趣味的字體 */
   font-size: 1.2em;
   padding: 8px 12px;
@@ -64,7 +64,7 @@ select:focus {
   filter: drop-shadow(2px 2px 1px rgba(170, 170, 170, 0.4));
 }
 
-.input:focus, textarea:focus {
+.input input:focus, textarea:focus {
   background-color: #d9d9d9;
   box-shadow: 4px 4px 0 #999;
   filter: drop-shadow(3px 3px 2px rgba(120, 120, 120, 0.5));
